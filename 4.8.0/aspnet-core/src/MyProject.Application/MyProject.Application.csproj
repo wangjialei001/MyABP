@@ -11,9 +11,14 @@
     <RootNamespace>MyProject</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\zhenglun\Desktop\下载\MyProject\4.8.0\aspnet-core\src\MyProject.Application\MyProject.Application.xml</DocumentationFile>
+    <DocumentationFile>..//MyProject.Application//MyProject.Application.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyProject.Core\MyProject.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="MyProject.Application.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

@@ -64,7 +64,7 @@
         <member name="F:MyProject.Net.MimeTypes.MimeTypeNames.ApplicationXmlDtd">
             <summary>DTD files; Defined by RFC 3023</summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "F:MyProject.Net.MimeTypes.MimeTypeNames.ApplicationJavascript" -->
+        <!-- 对于成员“F:MyProject.Net.MimeTypes.MimeTypeNames.ApplicationJavascript”忽略有格式错误的 XML 注释 -->
         <member name="F:MyProject.Net.MimeTypes.MimeTypeNames.ApplicationEcmascript">
             <summary>ECMAScript/JavaScript; Defined in RFC 4329 (equivalent to application/javascript but with stricter processing rules)</summary>
         </member>
@@ -113,7 +113,7 @@
         <member name="F:MyProject.Net.MimeTypes.MimeTypeNames.ApplicationJsonPatch">
             <summary>JavaScript Object Notation (JSON) Patch; Defined in RFC 6902</summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "F:MyProject.Net.MimeTypes.MimeTypeNames.TextJavascript" -->
+        <!-- 对于成员“F:MyProject.Net.MimeTypes.MimeTypeNames.TextJavascript”忽略有格式错误的 XML 注释 -->
         <member name="F:MyProject.Net.MimeTypes.MimeTypeNames.ImagePjpeg">
             <summary>JPEG JFIF image; Associated with Internet Explorer; Listed in ms775147(v=vs.85) - Progressive JPEG, initiated before global browser support for progressive JPEGs (Microsoft and Firefox).</summary>
         </member>
@@ -311,6 +311,23 @@
         </member>
         <member name="F:MyProject.Net.MimeTypes.MimeTypeNames.ApplicationZip">
             <summary>ZIP archive files; Registered[7]</summary>
+        </member>
+        <member name="P:MyProject.Test.Dto.OrderTestDto.SaleTime">
+            <summary>
+            销售时间
+            </summary>
+        </member>
+        <member name="T:MyProject.Test.OrderTestAppService">
+            <summary>
+            订单测试
+            </summary>
+        </member>
+        <member name="M:MyProject.Test.OrderTestAppService.Create(MyProject.Test.Dto.CreateOrderTestDto)">
+            <summary>
+            订单测试创建
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

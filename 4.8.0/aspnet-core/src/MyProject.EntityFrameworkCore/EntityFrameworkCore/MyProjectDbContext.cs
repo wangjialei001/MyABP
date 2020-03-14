@@ -3,6 +3,7 @@ using Abp.Zero.EntityFrameworkCore;
 using MyProject.Authorization.Roles;
 using MyProject.Authorization.Users;
 using MyProject.MultiTenancy;
+using MyProject.Test;
 
 namespace MyProject.EntityFrameworkCore
 {
@@ -14,5 +15,6 @@ namespace MyProject.EntityFrameworkCore
             : base(options)
         {
         }
+        public DbSet<OrderTest> OrderTests { get; set; }
     }
 }
