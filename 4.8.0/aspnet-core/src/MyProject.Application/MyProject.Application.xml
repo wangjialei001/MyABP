@@ -329,5 +329,26 @@
             <param name="input"></param>
             <returns></returns>
         </member>
+        <member name="M:MyProject.Test.OrderTestAppService.Get(Abp.Application.Services.Dto.EntityDto{System.Int32})">
+            <summary>
+            获取单个
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyProject.Test.OrderTestAppService.GetAll(MyProject.Test.Dto.PagedOrderTestResultRequestDto)">
+            <summary>
+            获取所有
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyProject.Test.OrderTestAppService.Update(MyProject.Test.Dto.OrderTestDto)">
+            <summary>
+            修改
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

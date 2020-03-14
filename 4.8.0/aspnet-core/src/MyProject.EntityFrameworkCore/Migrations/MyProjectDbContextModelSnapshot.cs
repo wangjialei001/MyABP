@@ -1067,11 +1067,13 @@ namespace MyProject.Migrations
 
                     b.Property<DateTime>("CreationTime");
 
-                    b.Property<long>("MyId")
-                        .ValueGeneratedOnAddOrUpdate();
+                    b.Property<bool>("IsDeleted");
 
                     b.Property<string>("Name")
                         .HasMaxLength(20);
+
+                    b.Property<string>("Producter")
+                        .HasMaxLength(500);
 
                     b.Property<DateTime>("SaleTime");
 

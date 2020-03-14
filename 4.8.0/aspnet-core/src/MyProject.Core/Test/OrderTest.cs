@@ -8,10 +8,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace MyProject.Test
 {
     [Table("T_OrderTest")]
-    public class OrderTest : Entity, IHasCreationTime
+    public class OrderTest : Entity<int>, IHasCreationTime, ISoftDelete
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public long MyId { get; set; }
         public DateTime CreationTime { get; set; }
         [StringLength(20)]
         [Description("名称")]
@@ -22,5 +20,8 @@ namespace MyProject.Test
         public DateTime SaleTime { get; set; }
         [DefaultValue(0)]
         public int Count { get; set; }
+        [MaxLength(500)]
+        public string Producter { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

@@ -10,7 +10,6 @@ namespace MyProject.Test.Dto
     public class OrderTestDto: EntityDto<int>
     {
         public long Id { get; set; }
-        public long MyId { get; set; }
         public DateTime CreationTime { get; set; }
         public string Name { get; set; }
         /// <summary>

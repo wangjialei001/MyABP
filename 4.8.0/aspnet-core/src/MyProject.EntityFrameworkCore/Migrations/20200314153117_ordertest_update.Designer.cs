@@ -9,8 +9,8 @@ using MyProject.EntityFrameworkCore;
 namespace MyProject.Migrations
 {
     [DbContext(typeof(MyProjectDbContext))]
-    [Migration("20200314101821_OrderTest")]
-    partial class OrderTest
+    [Migration("20200314153117_ordertest_update")]
+    partial class ordertest_update
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -1069,11 +1069,13 @@ namespace MyProject.Migrations
 
                     b.Property<DateTime>("CreationTime");
 
-                    b.Property<long>("MyId")
-                        .ValueGeneratedOnAddOrUpdate();
+                    b.Property<bool>("IsDeleted");
 
                     b.Property<string>("Name")
                         .HasMaxLength(20);
+
+                    b.Property<string>("Producter")
+                        .HasMaxLength(500);
 
                     b.Property<DateTime>("SaleTime");
 
