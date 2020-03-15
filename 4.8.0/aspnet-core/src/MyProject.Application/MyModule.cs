@@ -18,6 +18,8 @@ namespace MyProject
                 config.CreateMap<CreateOrderTestDto, OrderTest>()
                       .ForMember(u => u.IsDeleted, options => options.Ignore())
                       .ForMember(u => u.Producter, options => options.MapFrom(input => input.ProducterName));
+                config.CreateMap<OrderTestDto, OrderTest>()
+                        .ForMember(u => u.IsDeleted, options => options.Ignore());
             });
         }
     }

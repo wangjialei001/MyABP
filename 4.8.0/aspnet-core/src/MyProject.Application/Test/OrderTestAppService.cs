@@ -59,7 +59,7 @@ namespace MyProject.Test
         /// <returns></returns>
         public override async Task<PagedResultDto<OrderTestDto>> GetAll(PagedOrderTestResultRequestDto input)
         {
-            var query = repository.GetAllIncluding(t => t.IsDeleted == false);
+            var query = repository.GetAllIncluding(null);
             query = query.Skip(input.SkipCount).Take(input.MaxResultCount);
             var items = new List<OrderTestDto>();
 

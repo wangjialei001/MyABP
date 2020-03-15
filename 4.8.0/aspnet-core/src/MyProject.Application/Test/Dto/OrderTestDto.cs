@@ -9,7 +9,7 @@ namespace MyProject.Test.Dto
     [AutoMapFrom(typeof(OrderTest))]
     public class OrderTestDto: EntityDto<int>
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public DateTime CreationTime { get; set; }
         public string Name { get; set; }
         /// <summary>

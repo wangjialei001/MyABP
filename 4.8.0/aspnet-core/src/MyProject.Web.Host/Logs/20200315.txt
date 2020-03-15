@@ -1,0 +1,61 @@
+DEBUG 2020-03-15 10:04:48,716 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-03-15 10:04:48,748 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-03-15 10:04:48,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.Web.Host.Startup.MyProjectWebHostModule, MyProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,778 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectWebCoreModule, MyProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectApplicationModule, MyProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectCoreModule, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,785 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.EntityFrameworkCore.MyProjectEntityFrameworkModule, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:48,801 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-03-15 10:04:48,891 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-15 10:04:48,892 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-15 10:04:48,893 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-15 10:04:48,893 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-03-15 10:04:49,204 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject.EntityFrameworkCore.MyProjectDbContext, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-03-15 10:04:49,591 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-03-15 10:04:49,685 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-03-15 10:04:49,738 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-03-15 10:04:49,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject
+DEBUG 2020-03-15 10:04:49,800 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-03-15 10:04:49,843 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-03-15 10:04:49,865 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-03-15 10:04:49,901 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-03-15 10:04:49,902 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-03-15 10:04:49,909 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.CreateUserDto
+DEBUG 2020-03-15 10:04:49,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.UserDto
+DEBUG 2020-03-15 10:04:49,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Test.Dto.CreateOrderTestDto
+DEBUG 2020-03-15 10:04:49,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Test.Dto.OrderTestDto
+DEBUG 2020-03-15 10:04:49,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-03-15 10:04:49,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-03-15 10:04:49,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Roles.Dto.PermissionDto
+DEBUG 2020-03-15 10:04:49,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-03-15 10:04:49,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.TenantDto
+INFO  2020-03-15 10:04:54,088 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/  
+WARN  2020-03-15 10:04:54,223 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-15 10:04:54,224 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-15 10:04:54,339 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-03-15 10:04:55,274 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)
+INFO  2020-03-15 10:04:55,750 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host) - Validation state: Valid
+INFO  2020-03-15 10:04:55,757 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.6777ms.
+INFO  2020-03-15 10:04:55,955 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-03-15 10:04:55,966 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host) in 687.8979ms
+INFO  2020-03-15 10:04:55,967 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-03-15 10:04:56,014 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1933.4061ms 302 
+INFO  2020-03-15 10:04:56,016 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/swagger/index.html  
+WARN  2020-03-15 10:04:56,019 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-15 10:04:56,021 [6    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-15 10:04:56,252 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 235.9024ms 200 text/html
+INFO  2020-03-15 10:04:56,585 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21022/swagger/v1/swagger.json  
+INFO  2020-03-15 10:04:56,745 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2020-03-15 10:04:56,828 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'zh-CN, zh'.
+WARN  2020-03-15 10:04:56,829 [11   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'zh-CN, zh'.
+INFO  2020-03-15 10:04:57,123 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 538.4681ms 200 application/json;charset=utf-8
